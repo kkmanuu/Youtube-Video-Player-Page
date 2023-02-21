@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Player</title>
+</head>
+<header>
+    <div id="top-left">
+<div id="page-layout">
+    <header id="header">
+        <nav>
+            <div id="btn-nav"><img src="img/icons-menu.svg" alt="menu"></div>
+            <input type="checkbox" name="toggle" id="toggle">
+            <ul class="navigation-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+<body>
+
+
+        <nav id="nav-bar">
+               <div id="right-side-header">
+        <img id="menu" src="icons/menu.png" alt="">
+        <img id="Youtube-icon" src="icons/youtube-icon.png" alt="">
+      </div>
+             <div id="middle-side-header">
+        <input id="search-bar" type="text" placeholder="Search">
+        <button id="search-button">
+            <img id="search-icon" src="icons/search.png" alt="">
+        </button>
+        <button id="microphone-button">
+            <img id="microphone" src="icons/microphone.png" alt="">
+        </button>
+        
+      </div>
+      <div id="left-side-header">
+        <img id="video-player" src="icons/upload.png" alt="">
+        <img id="bell" src="icons/bell.png" alt="">
+        <img id="channel-profile" src="profile/channel-pic.jpg" alt="">
+    </div> 
+  </nav>
+    
+
+
+    <div id="page-grid">
+        <div id="large-player-column">
+            <div id="playing-video-div">
+                <iframe width="560" height="315"
+                 src="https://www.youtube.com/embed/4fsu2q_aPGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                 gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+            </div>
+        </div>
+        <div id="video-name-div">
+            <p id="video-name">CHANGE YOUR MINDSET - Motivational Speech 1</p>
+            </div>
+    </div>
+    <div id="video-share-and-like-stats">
+        <div id="creator-div">
+            <div id="creator-profile-div">
+                <img id="creator-profile" src="profile/odin.jpg" alt="">
+            </div>
+            <div id="subscriber-count-div">
+                <p id="creator-name">AlexKalts</p>
+                <p id="subscribers-count">1M subscribers</p>
+            </div>
+            <div id="subscribe-btn-div">
+                <button id="subscribe-btn">Subscribe</button>
+            </div>
+        </div>
+        <div id="likes-div">
+            <div id="likes-div">
+            <button id="likes">520</button>
+            <button id="dislikes">0</button>
+            <button id="share">Share</button>
+            <button id="clip">Clip</button>
+            <button id="more">&#8230;</button>
+        </div>
+    </div>
+    <div id="video-description">
+        <p id="decription-text-stats">50,000,000 views  2years ago</p>
+        <p id="decription-text">In this video I will 
+            describe on how you can manage to change the mindset and it's an amazing motivation 
+            so here we go;
+            before  i start descibing  I would to give you defination;
+            A change mindset is comprehending the reasons for change, 
+            realizing that all resistance to change is not logical, 
+            communicating the rationale for change and 
+            mobilizing others to aid in securing a new vision for the future.
+             1. Changing your mindset is the mort important thing, Everything starts from the mind,
+             If you can't control your mind there is nothing you can do to achieve what you dream of
+             2.Believe in yourself—remind yourself daily how awesome you are.
+             3.Empower yourself-remind yourself you always have choices.
+             4.Believe in the impossible—remind yourself anything is possible.
+             5.Look for the good—remind yourself to reframe situations using the tools above.
+        
+          you can more information in; https://www.youtube.com/watch?v=4fsu2q_aPGg
+        
+        </p>
+    </div>
+    </div>
+
+
+       <!--comment-count-->
+       <div id="comment-count-and-sorting-div">
+       <p id="comment-count-">49 comment</p>
+        <p id="sorting">sorting by</p>
+       </div>
+
+       <div id="type-your-comment-div">
+       <div id="type-your-comment-div">
+        <img id="my-profile" src="profile/me.png" alt="">
+        <input id="type-your-comment" type="text" placeholder="Add a comment...">
+
+       </div>
+         </div> 
+
+           <!-- comment-section-div -->
+           <div id="comment-session">
+            <div id='individual-comment'>
+                <div id="commentor-profile-div">
+                    <img id="commentor-profile" src="profile/1.jpg" alt="">
+                </div>
+                <div id="commentor-name-and-comment-div">
+                    <p id="commentor-name"><b>
+                        Mind Greatness</b> 12 days ago</p>
+                    <p id="comment">The only thing standing in our way is ourselves
+                     and our fear of stepping out of our comfort zones. We have the power to shape our own destinies. 
+                 Every failure is a chance to learn, grow and become stronger</p>
+                    <button id="comment-like">
+                        <img id="comment-like-icon" src="icons/thumbs-up.png" alt="">
+                    </button>
+                    <button id="comment-dislike">
+                        <img id="comment-dislike-icon" src="icons/thumb-down.png" alt="">
+                        </button>
+                    <button id="reply-button">Reply</button>
+                </div>
+                <div id="comment-dot-ellipsis">
+                    <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+                </div>
+            </div>
+            <div id='individual-comment'>
+                <div id="commentor-profile-div">
+                    <img id="commentor-profile" src="profile/2.jpg" alt="">
+                </div>
+                <div id="commentor-name-and-comment-div">
+                    <p id="commentor-name"><b>
+                        Goat Amv</b> 2 weeks ago (edited)</p>
+                    <p id="comment">Learn to meditate. ...
+                        Make personal development a priority for yourself. ...
+                        Retrain your brain by noticing 3 positive changes per day. ...
+                        Write your post-mortem. ...
+                        Focus on your long-term vision. ...
+                        Imagine the inevitable. ...
+                        Do the dirty work yourself.
+                        Listen to trusted outside perspectives.
+                        Accept that change will happen with or without you.
+                        Hire more women.
+                        Make yourself vulnerable to others.
+                        Eliminate your 'sunk costs' mindse.</p>
+                    <button id="comment-like">
+                        <img id="comment-like-icon" src="icons/thumbs-up.png" alt="">
+                    </button>
+                    <button id="comment-dislike">
+                        <img id="comment-dislike-icon" src="icons/thumb-down.png" alt="">
+                        </button>
+                    <button id="reply-button">Reply</button>
+                </div>
+                <div id="comment-dot-ellipsis">
+                    <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+                </div>
+            </div>
+        <div id='individual-comment'>
+            <div id="commentor-profile-div">
+                <img id="commentor-profile" src="profile/3.jpg" alt="">
+            </div>
+            <div id="commentor-name-and-comment-div">
+                <p id="commentor-name"><b>AlexKalts
+                    </b> 6 year ago</p>
+                <p id="comment">I really appreciate about this it was really cool</p>
+                <button id="comment-like">
+                    <img id="comment-like-icon" src="icons/thumbs-up.png" alt="">
+                </button>
+                <button id="comment-dislike">
+                    <img id="comment-dislike-icon" src="icons/thumb-down.png" alt="">
+                    </button>
+                <button id="reply-button">Reply</button>
+            </div>
+            <div id="comment-dot-ellipsis">
+                <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+            </div>
+        </div>
+        <div id='individual-comment'>
+            <div id="commentor-profile-div">
+                <img id="commentor-profile" src="profile/4.jpg" alt="">
+            </div>
+            <div id="commentor-name-and-comment-div">
+                <p id="commentor-name"><b>AlexKalts</b> 5 years ago</p>
+                <p id="comment">I started making videos and posting them expecially to 
+                    motivate the young youths not only that to ensure the world
+                    have a peace of mind in what the do either jobs nor
+                    learning. <a href="https://www.youtube.com/watch?v=4fsu2q_aPGg">https://www.youtube.com/watch?v=4fsu2q_aPGg</a></p>
+                <button id="comment-like">
+                    <img id="comment-like-icon" src="icons/thumbs-up.png" alt="">
+                </button>
+                <button id="comment-dislike">
+                    <img id="comment-dislike-icon" src="icons/thumb-down.png" alt="">
+                    </button>
+                <button id="reply-button">Reply</button>
+            </div>
+            <div id="comment-dot-ellipsis">
+                <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+            </div>
+        </div>
+        <div id='individual-comment'>
+            <div id="commentor-profile-div">
+                <img id="commentor-profile" src="profile/5.jpg" alt="">
+            </div>
+            <div id="commentor-name-and-comment-div">
+                <p id="commentor-name"><b>cobra_impulsion</b> 3 days ago</p>
+                <p id="comment">Great motivational video! :)</p>
+                <button id="comment-like">
+                    <img id="comment-like-icon" src="icons/thumbs-up.png" alt="">
+                </button>
+                <button id="comment-dislike">
+                    <img id="comment-dislike-icon" src="icons/thumb-down.png" alt="">
+                    </button>
+                <button id="reply-button">Reply</button>
+            </div>
+            <div id="comment-dot-ellipsis">
+                <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+            </div>
+        </div>
+        <div id='individual-comment'>
+            <div id="commentor-profile-div">
+                <img id="commentor-profile" src="profile/6.jpg" alt="">
+            </div>
+            <div id="commentor-name-and-comment-div">
+                <p id="commentor-name"><b>
+                    Anti Quotes Daily.</b>  2 weeks ago (edited)</p>
+                <p id="comment">"This made me so motivated 
+                    i had to watch my own content again 
+                    to come back to earth 😂😂 nice one 👍"  .</p>
+                <button id="comment-like">
+                    <img id="comment-like-icon" src="icons/thumbs-up.png" alt="">
+                </button>
+                <button id="comment-dislike">
+                    <img id="comment-dislike-icon" src="icons/thumb-down.png" alt="">
+                    </button>
+                <button id="reply-button">Reply</button>
+            </div>
+            <div id="comment-dot-ellipsis">
+                <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+  <!-- SIDE-PLAYER -->
+        
+  <div id="small-player-column">
+    
+    <div id="ad-display-div">
+        <div id="thumbnail">
+            <img id="ad-img" src="thumnails/ad_banner.jpg" alt="">
+        </div>
+        <div id="add-link-info-div">
+            <div>
+                <img id="ad-profile" src="thumnails/ad_profile.jpg" alt="">
+            </div>
+            <div id="ad-hyperlink">
+                <p> <b>Ad</b>  &#183; Making Motivational YouTube Videos with ChatGPT </p>
+            </div>
+            <div id='add-btn-link-div'>
+                <a href="https://www.youtube.com/watch?v=VhmzkzxiE2w" target="_blank"><button id="add-btn-link">Learn more</button></a>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div id="tags-div">
+        <div ><button id="tag-1">All</button></div>
+        <div ><button id="tag">Related</button></div>
+        <div ><button id="tag">Alec Wilcock</button></div>
+        <div ><button id="tag">Watched</button></div>
+    </div>
+    
+   
+    
+    <!-- INDIVIDUAL RECOMENDED VIDEOS -->
+    <div id="mini-player">
+        <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=KxuWLzR3eA4"><img id="video-thumbnail" src="thumnails/1.webp" alt=""></a>
+            
+        </div>
+        <div id="creator-and-views">
+            <p id="video-title">Motivation Niche & Relaxation Niche? 
+                How To Make Money On YouTube Without Making Videos</p>
+            <p id="creator-name">Bye 9 To 5</p>
+            <p id="channel-view-stats">12k views  &#183; 1 years ago</p>
+        </div>
+        <div id="dot-ellipsis">
+            <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+        </div>
+    </div>
+    <div id="mini-player">
+        <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=zm4cXjHh0go"><img id="video-thumbnail" src="thumnails/motovite.webp" alt=""></a>
+        </div>
+        <div id="creator-and-views">
+            <p id="video-title">STOP WASTING TIME - Best Motivational Speech Compilation
+                .</p>
+            <p id="creator-name">Alec Wilcock</p>
+            <p id="channel-view-stats">72k views  &#183; 8 days ago</p>
+        </div>
+        <div id="dot-ellipsis">
+            <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+        </div>
+    </div>
+    <div id="mini-player">
+        <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=JGxevFBgbd8"><img id="video-thumbnail" src="thumnails/thumnail-billie.jpg" alt=""></a>
+        </div>
+        <div id="creator-and-views">
+            <p id="video-title">LET THEM GO</p>
+            <p id="creator-name">
+                Motivational vibes</p>
+            <p id="channel-view-stats">5.2M views  &#183; 1 years ago</p>
+        </div>
+        <div id="dot-ellipsis">
+            <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+        </div>
+    </div>
+    <div id="mini-player">
+        <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=HrwtRU1vMC4"><img id="video-thumbnail" src="thumnails/Timing is Everything" alt=""></a>
+            
+        </div>
+        <div id="creator-and-views">
+            <p id="video-title">NEVER GIVE UP NO MATTER WHAT -
+                 Steve Harvey POWERFUL SPEECH - Faith is EVERYTHING!.</p>
+            <p id="creator-name">
+                Inspiration Builders</p>
+            <p id="channel-view-stats">227k views  &#183; 1 month ago</p>
+        </div>
+        <div id="dot-ellipsis">
+            <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+        </div>
+    </div>
+    <div id="mini-player">
+        <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=7WfebBPppGw"><img id="video-thumbnail" src="thumnails/2.webp" alt=""></a>
+        </div>
+        <div id="creator-and-views">
+            <p id="video-title">HOW TO PREPARE BEFORE THE PROMISE.</p>
+            <p id="creator-name">Prayer Line</p>
+            <p id="channel-view-stats">746 views  &#183; 6 hours ago</p>
+        </div>
+        <div id="dot-ellipsis">
+            <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+        </div>
+    </div>
+    <div id="mini-player">
+        <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=p0pgrq-DXCY"><img id="video-thumbnail" src="thumnails/billioners.webp" alt="" ></a>
+        </div>
+        <div id="creator-and-views">
+            <p id="video-title">Bill Gates' Advice, for Young People Who Want to Be Rich</p>
+            <p id="creator-name">succes secret</p>
+            <p id="channel-view-stats">3.4M views  &#183; 4 years ago</p>
+        </div>
+        <div id="dot-ellipsis">
+            <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+        </div>
+    </div>
+    <div id="mini-player">
+        <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=DU6WINoehrg"><img id="video-thumbnail" src="thumnails/ai.jpg" alt=""></a>
+        </div>
+        <div id="creator-and-views">
+            <p id="video-title">This New AI is a Game Changer</p>
+            <p id="creator-name">Anastasi In Tech</p>
+            <p id="channel-view-stats">148k views  &#183; 3 weeks ago</p>
+        </div>
+        <div id="dot-ellipsis">
+            <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+        </div>
+    </div>
+    <div id="mini-player">
+        <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=C63IhX4j-5Y&t=2751s">
+            <img id="video-thumbnail" src="thumnails/lana.jpg" alt=""></a>
+        </div>
+        <div id="creator-and-views">
+            <p id="video-title">Lana Del Ray Greatest Hits -Lana Del Rey Acoustic Playlist</p>
+            <p id="creator-name">TiccyboyxOps</p>
+            <p id="channel-view-stats">12k views  &#183; 4 years ago</p>
+        </div>
+        <div id="dot-ellipsis">
+            <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+        </div>
+    </div>
+    <div id="mini-player">
+        <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=Vyw34qNcg-Y"><img id="video-thumbnail" src="thumnails/bukola.jpg" alt=""></a>
+        </div>
+        <div id="creator-and-views">
+            <p id="video-title">A Day In Life Of a Software Developer Advocate| work from home, first</p>
+            <p id="creator-name">Bukola</p>
+            <p id="channel-view-stats">22k views  &#183; 3 weeks ago</p>
+        </div>
+        <div id="dot-ellipsis">
+            <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+        </div>
+    </div>
+    <div id="mini-player">
+        <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=DNyl1LxIjEo"><img id="video-thumbnail" src="thumnails/family_guy.jpg" alt=""></a>
+        </div>
+        <div id="creator-and-views">
+            <p id="video-title">Family Guy-Best of Herbert and Chris | Hot Dog</p>
+            <p id="creator-name">SGA</p>
+            <p id="channel-view-stats">1.5M views  &#183; 2 years ago</p>
+        </div>
+        <div id="dot-ellipsis">
+            <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+        </div>
+    </div>
+    <div id="mini-player">
+        <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=AoeEHqVSNOw"><img id="video-thumbnail" src="thumnails/classifier.jpg" alt=""></a>
+        </div>
+        <div id="creator-and-views">
+            <p id="video-title">Writing Our First Classifier - Machine Learning Recipes #5</p>
+            <p id="creator-name">Google Developer</p>
+            <p id="channel-view-stats">356k views  &#183; 6 years ago</p>
+        </div>
+        <div id="dot-ellipsis">
+            <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+        </div>
+    </div>
+    <div id="mini-player">
+        <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=0nfe_4wMoQA"><img id="video-thumbnail" src="thumnails/Inspiration Bussiness" alt=""></a>
+            </div>
+            <div id="creator-and-views">
+                 <p id="video-title">Do not miss</p>
+                 <p id="creator-name">pursit your purpose</p>
+                 <p id="channel-view-stats">422k &#183; 5 months ago</p>
+            </div>
+            <div id="dot-ellipsis">
+                <img id="ellipsis-img"src="icons/ellipsis.png" alt="">
+
+            </div>
+        </div>
+        <div id="mini-player">
+           <div id="thumbnail">
+            <a href="https://www.youtube.com/watch?v=yASaVNKs9yY"><img id="video-thumbnail" src="thumnails/succesful People" alt=""></a>
+           </div>
+           <div id="creator-and-views">
+            <p id="video-title">Happits of succesful</p>
+            <p id="creator-name">Dan Lok</p>
+            <p id="channel-view-stats">1.7M views &#183; 2 years ago</p>
+           </div>
+           <div id="dot-ellipsis">
+               <img id="ellipsis-img"src="icons/ellipsis.png" alt="">
+           </div>
+
+        </div>
+        <div id="mini-player">
+            <div id="thumbnail">
+               <a href="https://www.youtube.com/watch?v=PgkYa6gkEQ4"><img id="video-thumbnail" src="thumnails/fluently" alt=""></a>
+            </div>
+
+            <div id="creator-and-views">
+              <p id="video-title">Steps To Improve Your English Fluency</p>
+              <p id="creator-name">Dan lok</p> 
+              <p id="channel-view-stats">3.4M views &#183; 3 years ago</p>
+            </div>
+            <div id="dot-ellipsis">
+                <img id="ellipsis-img"src="icons/ellipsis.png" alt="">
+            </div>
+
+
+        </div>
+        <div id="mini-player">
+            <div id="thumbnail">
+                <a href="https://www.youtube.com/watch?v=V91tqFUhwjU"><img id="video-thumbnail" src="thmnails/Learning English" alt=""></a>
+                </div>
+
+                <div id="creator-and-views">
+                    <p id="video-title">Learn English with President Obama 
+                    and Mark Zuckerberg at Facebook Town Hall</p>
+                    <p id="creator-name">Learning English online</p>
+                    <p id="channel-view-stats">78k views &#183; 5 months ago</p>
+                </div>
+                <div id="dot-ellipsis">
+                    <img id="ellipsis-img"src="icons/ellipsis.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </div>

@@ -1,0 +1,299 @@
+body {
+    margin-top: 80px;
+    padding: 0px;
+    /* background-color: black; */
+}
+
+#page-grid {
+    display: grid;
+    grid-template-columns: 920px 500px;
+    margin-right: 20px;
+}
+
+#large-player-column{
+    margin-right: 20px;
+    /* background-color: rgb(174, 211, 171); */
+    
+
+}
+   
+#playing-video-div {
+    width: 90px;
+    height: 520px;
+}
+
+#playing-video {
+    margin-left: 100px;
+    width: 800px;
+    height: 520px;
+}
+
+#video-name {
+    margin-left: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "YouTube Sans","Roboto",sans-serif;
+    color: black;
+}
+
+
+
+
+
+#video-share-and-like-stats {
+    margin-left: 100px; 
+    /* display: flex; */
+    justify-content: space-between;
+    margin-top: 0px;
+    vertical-align: top;
+    margin-bottom: 15px;
+}
+
+#creator-div{
+    display: inline-block ;
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+#creator-profile-div {
+    display: inline-block;
+
+}
+#creator-profile{
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 40px;
+    padding: 0px;
+
+}
+
+#subscriber-count-div{
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+}
+
+#creator-name {
+    font-weight: bold;
+    margin: 0px;
+    font-size: 17px;
+}
+
+#subscribers-count {
+    margin: 3px;
+    font-size: 12px;
+}
+#subscribe-btn-div {
+    display: inline-block;
+    margin-top: 3px;
+    vertical-align: top;
+}
+
+#subscribe-btn {
+    padding: 8px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+    justify-self: center;
+}
+
+#likes-div {
+    display: inline-block;
+    justify-self: right;
+    margin-left: 85px;
+}
+#likes{
+    padding: 8px;
+    width: 70px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(246, 241, 241);
+    margin-right: -1px;
+    font-weight: bold;
+
+}
+#dislikes{
+    padding: 8px;
+    width: 45px;
+    margin-left: -1px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(246, 241, 241);
+    margin-right: 0px;
+    font-weight: bold;
+
+}
+#share{
+    padding: 8px;
+    width: 80px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(79, 18, 184);
+    margin-right: 0px;
+    font-weight: bold;
+
+}
+#clip{
+    padding: 8px;
+    width: 70px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(246, 241, 241);
+    margin-right: 0px;
+    font-weight: bold;
+
+
+}
+#more{
+    padding: 8px;
+    width: 35px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(246, 241, 241);
+    margin-right: 0px;
+    font-weight: bold;
+
+
+}
+
+
+
+
+
+#video-description {
+    /* margin-left: 100px;  */
+    /* display: block; */
+    background-color: rgb(235, 234, 234, 0.8);
+    border: solid;
+    border-width: 1px;
+    border-color: aliceblue;
+    border-radius: 10px; 
+    font-weight: bold;
+    font-weight: TimesNewRoman;
+    
+}
+
+#decription-text-stats{
+    padding-top: 5px;
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 16px;
+} 
+
+#decription-text{
+    padding-left: 5px;
+    padding-top: 2px;
+    font-size: 14px;
+    font-family: "YouTube Sans","Roboto",sans-serif;;
+}
+
+
+
+
+#subscribe-div {
+    display: inline-block;
+}
+
+
+#video-name-div {
+    height: 30px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#playing-video-div {
+    padding-bottom: 0px;
+}
+
+#comment-session {
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+#commentor-profile {
+    border-radius: 50%;
+    height: 40px;
+}
+
+#commentor-profile-div {
+    display: inline-block;
+    /* vertical-align: center; */
+}
+
+#commentor-name-and-comment-div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    width: 690px;
+    /* border: solid; */
+}
+
+#commentor-name {
+    margin-top: 0px;
+}
+
+
+#reply-button{
+    width: 50px;
+    border-radius: 20px;
+    border: 1px;
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+    margin-bottom: 10px;
+
+
+}
+#comment-dot-ellipsis{
+    width: 10px;
+    display: inline-block;
+}
+
+
+#comment-count-and-sorting-div {
+    margin-left: 110px;
+}
+
+#comment-count, #sorting {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Roboto, Arial;
+}
+#type-your-comment-div{
+    margin-left: 105px;
+
+}
+#my-profile{
+    width: 40px;
+    border-radius: 50px;
+    vertical-align: center;
+}
+#type-your-comment {
+    margin-left: 20px;
+    vertical-align: center;
+    margin-bottom: 9px;
+    width: 690px;
+    padding: 15px;
+    border-top-color: white;
+}
+
+
+
+#comment-like-icon, #comment-dislike-icon {
+    width: 20px;
+    height: 20px;
+    border-color: white;
+}
+
+#comment-like, #comment-dislike {
+    border: solid;
+    border-color: white;
+    background-color: white;
+}
+#comment-like,#comment-dislike {
+    margin-right: 8px;
+}
